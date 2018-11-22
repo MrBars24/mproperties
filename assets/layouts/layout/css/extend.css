@@ -1,0 +1,13 @@
+.ui-sortable-handle{
+    cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.ui-sortable-helper{
+    background: rgba(0,0,0,0.1);
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
